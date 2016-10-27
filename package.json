@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "steganodb": "git+https://github.com/BrunoHaveroth/steganodb-js#master"
+  },
+  "description": "Sails adapter for SteganoDB",
+  "directories": {},
+  "license": "ISC",
+  "main": "./lib/adapter.js",
+  "name": "sails-steganodb",
+  "author": "Bruno Haveroth",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "docker": "docker-compose run adapter bash",
+    "test": "make test"
+  },
+  "version": "1.0.0",
+  "waterlineAdapter": {
+    "features": [
+      "cross-adapter"
+    ],
+    "interfaces": [
+      "associations",
+      "queryable",
+      "semantic"
+    ],
+    "waterlineVersion": "~0.10.0"
+  }
+}
